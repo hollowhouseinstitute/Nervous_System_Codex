@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nervous System Codex Schema",
+  "type": "object",
+  "properties": {
+    "entry_id": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "category": { "type": "string" },
+    "signal_type": { "type": "string" },
+    "emotion_state": { "type": "string" },
+    "body_zone": { "type": "string" },
+    "narrative": { "type": "string" }
+  },
+  "required": ["entry_id", "timestamp", "category", "narrative"]
+}
